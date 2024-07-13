@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.spring</groupId>
-  <artifactId>springSameple</artifactId>
+  <groupId>HibernateBasic</groupId>
+  <artifactId>HibernateBasic</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>springSameple</name>
+  <name>HibernateBasic</name>
   <url>http://www.example.com</url>
 
   <properties>
@@ -31,33 +31,20 @@
       <version>5.7.1</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-	<dependency>
-    	<groupId>org.springframework</groupId>
-    	<artifactId>spring-core</artifactId>
-    	<version>5.3.37</version>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
-	<dependency>
-    	<groupId>org.springframework</groupId>
-    	<artifactId>spring-context</artifactId>
-    	<version>5.3.37</version>
-	</dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.4.4.Final</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>21.3.0.0</version> <!-- or the version matching your Oracle DB version -->
+</dependency>
 
-	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
-	<dependency>
-    	<groupId>org.springframework</groupId>
-    	<artifactId>spring-orm</artifactId>
-    	<version>5.3.37</version>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
-	<dependency>
-    	<groupId>org.springframework</groupId>
-    	<artifactId>spring-beans</artifactId>
-    	<version>5.3.37</version>
-	</dependency>
   </dependencies>
 
   <build>
